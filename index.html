@@ -1,165 +1,302 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Intel: Sustainability Through the Ages</title>
+  <meta name="description" content="استكشف محطات إنتل في الاستدامة والتقنية من عام 1968 حتى اليوم." />
+  <meta name="theme-color" content="#003b63" />
+  <meta name="color-scheme" content="light" />
+  <title>إنتل: الاستدامة عبر العصور</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link id="bootstrap-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" data-rtl-href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" data-ltr-href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="script.js" defer></script>
 </head>
 <body>
 
   <!-- Header / Hero Section -->
   <header class="hero">
     <div class="hero-content">
-      <!-- Ask Copilot to teach you about `.svg`. 🙂 You'll need to resize the logo with CSS. -->
-      <img class="intel-logo" src="img/intel-header-logo.svg" alt="Intel Logo" />
-      <!-- Main Heading -->
-      <p class="eyebrow">Intel sustainability timeline</p>
-      <h1>Sustainability Through the Ages</h1>
+      <img class="intel-logo" src="img/intel-header-logo.svg" alt="شعار إنتل" width="180" height="50" fetchpriority="high" />
+      <p class="eyebrow">الخط الزمني لاستدامة إنتل</p>
+      <h1>الاستدامة عبر العصور</h1>
 
-      <!-- Subheading / Description -->
       <p>
-        Explore Intel's journey through time, discovering how our commitment
-        to innovation has shaped a more sustainable future for technology 
-        and our planet.
+        استكشف رحلة إنتل عبر الزمن، وتعرّف على كيفية مساهمة التزامنا
+        بالابتكار في بناء مستقبل أكثر استدامة للتقنية وكوكبنا.
       </p>
     </div>
   </header>
 
   <!-- Timeline Cards Section -->
   <main>
+    <section class="container py-5" aria-labelledby="focus-heading">
+      <div class="mb-4">
+        <p class="eyebrow">نبني مستقبلاً أفضل</p>
+        <h2 id="focus-heading" class="h1 text-primary mb-0">الاستدامة في العمل</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <article class="card h-100 border-0 shadow-sm">
+            <div class="card-body d-flex flex-column p-4">
+              <i class="bi bi-globe-americas fs-1 text-primary mb-3" aria-hidden="true"></i>
+              <h3 class="h4 text-primary">العمل المناخي</h3>
+              <p class="text-secondary">تعمل إنتل على خفض الانبعاثات في عملياتها وتتجه نحو صافي انبعاثات صفرية من غازات الدفيئة.</p>
+              <a class="btn btn-primary mt-auto align-self-start" href="#timeline-heading" aria-label="تعرّف على المزيد عن العمل المناخي">تعرّف على المزيد</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <article class="card h-100 border-0 shadow-sm">
+            <div class="card-body d-flex flex-column p-4">
+              <i class="bi bi-droplet-half fs-1 text-primary mb-3" aria-hidden="true"></i>
+              <h3 class="h4 text-primary">الإدارة المسؤولة للمياه</h3>
+              <p class="text-secondary">يساعد الاستخدام المسؤول للمياه ومشاريع الاستعادة في حماية المجتمعات التي تعمل فيها إنتل.</p>
+              <a class="btn btn-primary mt-auto align-self-start" href="#timeline-heading" aria-label="تعرّف على المزيد عن الإدارة المسؤولة للمياه">تعرّف على المزيد</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <article class="card h-100 border-0 shadow-sm">
+            <div class="card-body d-flex flex-column p-4">
+              <i class="bi bi-lightbulb fs-1 text-primary mb-3" aria-hidden="true"></i>
+              <h3 class="h4 text-primary">الابتكار المسؤول</h3>
+              <p class="text-secondary">تساعد التقنيات الفعّالة والتصميم المدروس في بناء مستقبل رقمي أكثر استدامة.</p>
+              <a class="btn btn-primary mt-auto align-self-start" href="#timeline-heading" aria-label="تعرّف على المزيد عن الابتكار المسؤول">تعرّف على المزيد</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="timeline-section" aria-labelledby="timeline-heading">
       <div class="section-heading">
-        <p class="eyebrow">1968 to today</p>
-        <h2 id="timeline-heading">Innovation with a lighter footprint</h2>
-        <p>Scroll across the milestones on larger screens. On smaller screens, the story stacks for easy reading.</p>
+        <p class="eyebrow">من عام 1968 حتى اليوم</p>
+        <h2 id="timeline-heading">ابتكار بأثر بيئي أخف</h2>
+        <p>تصفّح المحطات على الشاشات الكبيرة. وعلى الشاشات الصغيرة، تُرتّب القصة عمودياً لسهولة القراءة.</p>
       </div>
       <div class="timeline" tabindex="0" aria-label="Intel sustainability and technology milestones">
 
     <!-- Card 1: 1968 -->
     <article class="milestone-card" tabindex="0">
-      <img class="card-image" src="img/1.jpg" alt="Illustrated early Intel semiconductor laboratory from 1968" />
-      <h2>1968</h2>
-      <h3>Intel Founded</h3>
+      <img class="card-image" src="img/1.jpg" alt="رسم توضيحي لمختبر إنتل المبكر لأشباه الموصلات عام 1968" width="500" height="200" loading="lazy" decoding="async" />
+      <h3>1968</h3>
+      <h4>تأسيس إنتل</h4>
       <p class="summary">
-        Robert Noyce and Gordon Moore rename the newly formed company 
-        NM Electronics to Intel Corporation, laying the foundation for 
-        decades of technological innovation.
+        أعاد روبرت نويس وغوردون مور تسمية الشركة الناشئة NM Electronics
+        لتصبح شركة إنتل، ووضعا أساس عقود من الابتكار التقني.
       </p>
-      <p class="milestone-details">Intel's beginning established a culture of solving difficult engineering problems. That spirit later helped the company take on the environmental challenges created by semiconductor manufacturing.</p>
+      <p class="milestone-details">أرست بداية إنتل ثقافة حل المشكلات الهندسية الصعبة. وساعد هذا النهج الشركة لاحقاً على مواجهة التحديات البيئية الناتجة عن تصنيع أشباه الموصلات.</p>
     </article>
 
     <!-- Card 2: 1971 -->
     <article class="milestone-card" tabindex="0">
-      <img class="card-image" src="img/2.jpg" alt="Close-up of an early microprocessor on a circuit board" />
-      <h2>1971</h2>
-      <h3>First Microprocessor</h3>
+      <img class="card-image" src="img/2.jpg" alt="لقطة مقرّبة لمعالج دقيق مبكر على لوحة دوائر" width="500" height="200" loading="lazy" decoding="async" />
+      <h3>1971</h3>
+      <h4>أول معالج دقيق</h4>
       <p class="summary">
-        Intel debuts the 4004, the world's first commercial microprocessor, 
-        igniting the microprocessor revolution and propelling the future 
-        of computing devices.
+        طرحت إنتل المعالج 4004، أول معالج دقيق تجاري في العالم،
+        وأطلقت ثورة المعالجات الدقيقة ومهّدت لمستقبل أجهزة الحوسبة.
       </p>
-      <p class="milestone-details">The 4004 showed how much computing power could fit into a tiny piece of silicon. More efficient chips would eventually help computers do more work while using less energy.</p>
+      <p class="milestone-details">أظهر المعالج 4004 مقدار قوة الحوسبة التي يمكن وضعها في قطعة صغيرة من السيليكون. وساعدت الشرائح الأكثر كفاءة الحواسيب لاحقاً على إنجاز المزيد من العمل باستخدام طاقة أقل.</p>
     </article>
 
     <!-- Card 3: 1978 -->
     <article class="milestone-card" tabindex="0">
-      <img class="card-image" src="img/3.jpg" alt="Intel 8086 processor marked with its 1978 launch year" />
-      <h2>1978</h2>
-      <h3>8086 Processor</h3>
+      <img class="card-image" src="img/3.jpg" alt="معالج إنتل 8086 موضح عليه عام إطلاقه 1978" width="500" height="200" loading="lazy" decoding="async" />
+      <h3>1978</h3>
+      <h4>معالج 8086</h4>
       <p class="summary">
-        Launch of the 8086 processor, establishing the x86 architecture 
-        that drives countless PCs and servers in the modern era.
+        إطلاق معالج 8086، الذي أرسى بنية x86 التي تشغّل عدداً لا يحصى
+        من الحواسيب الشخصية والخوادم في العصر الحديث.
       </p>
-      <p class="milestone-details">The x86 architecture became a lasting foundation for personal computing. Its long life is also a reminder that durable technology can reduce the need to replace hardware as often.</p>
+      <p class="milestone-details">أصبحت بنية x86 أساساً راسخاً للحوسبة الشخصية. كما تذكّرنا فترة استخدامها الطويلة بأن التقنية المتينة يمكن أن تقلل الحاجة إلى استبدال الأجهزة باستمرار.</p>
     </article>
 
     <!-- Card 4: 1985 -->
     <article class="milestone-card" tabindex="0">
-      <img class="card-image" src="img/4.jpg" alt="Intel 386 processor surrounded by copper circuit traces" />
-      <h2>1985</h2>
-      <h3>386 Processor</h3>
+      <img class="card-image" src="img/4.jpg" alt="معالج إنتل 386 تحيط به مسارات دوائر نحاسية" width="499" height="200" loading="lazy" decoding="async" />
+      <h3>1985</h3>
+      <h4>معالج 386</h4>
       <p class="summary">
-        Intel introduces the 386 processor with 32-bit architecture, 
-        ushering in a new era of performance and multitasking for 
-        personal computers.
+        قدّمت إنتل معالج 386 ببنية 32 بت، مما أطلق عصراً جديداً
+        من الأداء وتعدد المهام للحواسيب الشخصية.
       </p>
-      <p class="milestone-details">The 386 made multitasking more practical for everyday computer users. It represents how advances in chip design can expand access to useful technology.</p>
+      <p class="milestone-details">جعل معالج 386 تعدد المهام أكثر عملية لمستخدمي الحواسيب اليومية. وهو مثال على كيفية توسيع التطور في تصميم الشرائح للوصول إلى تقنيات مفيدة.</p>
     </article>
 
     <!-- Card 5: 2006 -->
     <article class="milestone-card" tabindex="0">
-      <img class="card-image" src="img/2.jpg" alt="Microprocessor representing Intel's manufacturing operations" />
-      <h2>2006</h2>
-      <h3>Peak GHG Emissions</h3>
+      <img class="card-image" src="img/2.jpg" alt="معالج دقيق يمثل عمليات التصنيع لدى إنتل" width="500" height="200" loading="lazy" decoding="async" />
+      <h3>2006</h3>
+      <h4>ذروة انبعاثات غازات الدفيئة</h4>
       <p class="summary">
-        This year marks Intel's highest annual greenhouse gas emissions 
-        for operations. Over subsequent years, Intel invests heavily in 
-        chemical abatement, renewable energy, and energy-efficient 
-        manufacturing to reverse this trend.
+        شهد هذا العام أعلى مستوى سنوي لانبعاثات غازات الدفيئة في عمليات إنتل.
+        وفي السنوات اللاحقة، استثمرت إنتل بكثافة في الحد من المواد الكيميائية
+        والطاقة المتجددة والتصنيع الموفر للطاقة لعكس هذا الاتجاه.
       </p>
-      <p class="milestone-details">This milestone recognizes a problem as well as a turning point. Intel's response included better chemical abatement, more efficient manufacturing, and greater use of renewable electricity.</p>
+      <p class="milestone-details">تسلّط هذه المحطة الضوء على مشكلة ونقطة تحول في الوقت نفسه. وشمل رد إنتل تحسين الحد من المواد الكيميائية، وزيادة كفاءة التصنيع، وتوسيع استخدام الكهرباء المتجددة.</p>
     </article>
 
     <!-- Card 6: 2020 -->
     <article class="milestone-card" tabindex="0">
-      <img class="card-image" src="img/1.jpg" alt="Intel laboratory image representing responsible innovation" />
-      <h2>2020</h2>
-      <h3>RISE Strategy</h3>
+      <img class="card-image" src="img/1.jpg" alt="صورة لمختبر إنتل تمثل الابتكار المسؤول" width="500" height="200" loading="lazy" decoding="async" />
+      <h3>2020</h3>
+      <h4>استراتيجية RISE</h4>
       <p class="summary">
-        Intel launches its RISE (Responsible, Inclusive, Sustainable, 
-        Enabling) strategy and 2030 goals, aiming to drive industry-wide 
-        progress on climate action, water stewardship, and waste reduction.
+        أطلقت إنتل استراتيجية RISE (المسؤولة والشاملة والمستدامة والمُمكِّنة)
+        وأهدافها لعام 2030 لدفع التقدم في العمل المناخي والإدارة المسؤولة للمياه
+        وتقليل النفايات على مستوى القطاع.
       </p>
-      <p class="milestone-details">RISE brings environmental responsibility together with inclusion and enabling technology. Its 2030 goals give the company measurable targets instead of treating sustainability as a side project.</p>
+      <p class="milestone-details">تجمع RISE بين المسؤولية البيئية والشمول والتقنية المُمكِّنة. وتمنح أهداف 2030 الشركة أهدافاً قابلة للقياس بدلاً من التعامل مع الاستدامة كمشروع جانبي.</p>
     </article>
 
     <!-- Card 7: 2022 -->
     <article class="milestone-card" tabindex="0">
-      <img class="card-image" src="img/3.jpg" alt="Intel processor representing the path toward net-zero operations" />
-      <h2>2022</h2>
-      <h3>Net-Zero By 2040</h3>
+      <img class="card-image" src="img/3.jpg" alt="معالج إنتل يمثل الطريق نحو عمليات بصافي انبعاثات صفرية" width="500" height="200" loading="lazy" decoding="async" />
+      <h3>2022</h3>
+      <h4>صافي انبعاثات صفري بحلول 2040</h4>
       <p class="summary">
-        Intel announces its commitment to achieve net-zero greenhouse 
-        gas emissions (Scope 1 and 2) across its global operations 
-        by 2040, building on years of environmental initiatives.
+        أعلنت إنتل التزامها بتحقيق صافي انبعاثات صفري من غازات الدفيئة
+        (النطاقين 1 و2) في عملياتها العالمية بحلول عام 2040،
+        استناداً إلى سنوات من المبادرات البيئية.
       </p>
-      <p class="milestone-details">The net-zero commitment focuses on Scope 1 and 2 emissions from global operations. Reaching it will require continued efficiency work, renewable energy, and careful planning across Intel's sites.</p>
+      <p class="milestone-details">يركز الالتزام بصافي الانبعاثات الصفري على انبعاثات النطاقين 1 و2 من العمليات العالمية. وسيتطلب تحقيقه مواصلة تحسين الكفاءة واستخدام الطاقة المتجددة والتخطيط الدقيق في مواقع إنتل.</p>
     </article>
 
     <!-- Card 8: 2023 -->
     <article class="milestone-card" tabindex="0">
-      <img class="card-image" src="img/4.jpg" alt="Processor and circuit traces representing renewable-powered technology" />
-      <h2>2023</h2>
-      <h3>Renewable Electricity</h3>
+      <img class="card-image" src="img/4.jpg" alt="معالج ومسارات دوائر تمثل تقنية تعمل بالطاقة المتجددة" width="499" height="200" loading="lazy" decoding="async" />
+      <h3>2023</h3>
+      <h4>الكهرباء المتجددة</h4>
       <p class="summary">
-        The company achieves 99% renewable electricity usage worldwide, 
-        helping to drastically lower carbon emissions and driving progress 
-        toward Intel's long-term sustainability goals.
+        حققت الشركة استخداماً للكهرباء المتجددة بنسبة 99% حول العالم،
+        مما يساعد على خفض انبعاثات الكربون بشكل كبير ودعم التقدم نحو
+        أهداف إنتل طويلة الأمد في مجال الاستدامة.
       </p>
-      <p class="milestone-details">Using 99% renewable electricity worldwide is a major operational step. It shows how purchasing and generating cleaner energy can complement improvements inside factories.</p>
+      <p class="milestone-details">يمثل استخدام الكهرباء المتجددة بنسبة 99% حول العالم خطوة تشغيلية مهمة. ويوضح ذلك كيف يمكن لشراء الطاقة النظيفة وتوليدها أن يكملا التحسينات داخل المصانع.</p>
     </article>
 
     <!-- Card 9: 2024 -->
     <article class="milestone-card" tabindex="0">
-      <img class="card-image" src="img/1.jpg" alt="Early Intel technology image representing collaboration across the industry" />
-      <h2>2024</h2>
-      <h3>Sustainability Summit</h3>
+      <img class="card-image" src="img/1.jpg" alt="صورة لتقنية إنتل المبكرة تمثل التعاون على مستوى القطاع" width="500" height="200" loading="lazy" decoding="async" />
+      <h3>2024</h3>
+      <h4>قمة الاستدامة</h4>
       <p class="summary">
-        Intel hosts its first Sustainability Summit, uniting suppliers, 
-        government officials, and industry leaders to collaborate on 
-        next-generation sustainable semiconductor manufacturing.
+        استضافت إنتل أول قمة للاستدامة، وجمعت الموردين والمسؤولين الحكوميين
+        وقادة القطاع للتعاون في تصنيع الجيل القادم من أشباه الموصلات المستدامة.
       </p>
-      <p class="milestone-details">The summit makes sustainability a shared industry challenge. Bringing suppliers, government, and technology leaders together can help move better ideas from one organization into the wider semiconductor ecosystem.</p>
+      <p class="milestone-details">تجعل القمة الاستدامة تحدياً مشتركاً للقطاع. ويمكن لجمع الموردين والحكومات وقادة التقنية أن يساعد في نقل الأفكار الأفضل من مؤسسة واحدة إلى منظومة أشباه الموصلات الأوسع.</p>
     </article>
       </div>
-      <p class="timeline-note">Scroll to view the timeline. Hover over a card, or focus it with a keyboard, to learn more.</p>
+      <p class="timeline-note">مرّر لعرض الخط الزمني. مرّر فوق بطاقة أو ركّز عليها باستخدام لوحة المفاتيح لمعرفة المزيد.</p>
     </section>
+
+  <section class="container py-5" aria-labelledby="subscribe-heading">
+    <div class="card border-0 shadow-sm">
+      <div class="card-body p-4 p-md-5">
+        <div class="row justify-content-between align-items-center g-4">
+          <div class="col-lg-5">
+            <p class="eyebrow">ابقَ على اتصال</p>
+            <h2 id="subscribe-heading" class="h1 text-primary mb-2">اشترك في تحديثات استدامة إنتل</h2>
+            <p class="text-secondary mb-0">احصل على أخبار دورية حول تقدم إنتل وأفكارها وابتكاراتها من أجل مستقبل أكثر استدامة.</p>
+          </div>
+          <div class="col-lg-6">
+            <form aria-label="الاشتراك في تحديثات استدامة إنتل">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="subscriber-name">الاسم</label>
+                  <input class="form-control" type="text" id="subscriber-name" name="name" autocomplete="name" required />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="subscriber-email">البريد الإلكتروني</label>
+                  <input class="form-control" type="email" id="subscriber-email" name="email" autocomplete="email" required />
+                </div>
+                <div class="col-12 d-grid d-md-flex justify-content-md-start">
+                  <button class="btn btn-primary px-4" type="submit">اشترك</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container py-5" aria-labelledby="faq-heading">
+    <div class="mb-4">
+      <p class="eyebrow">إجابات مفيدة</p>
+      <h2 id="faq-heading" class="h1 text-primary mb-0">الأسئلة الشائعة</h2>
+    </div>
+
+    <div class="accordion" id="faqAccordion">
+      <div class="accordion-item mb-2 border-0 shadow-sm">
+        <h3 class="accordion-header" id="faq-question-one">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-answer-one" aria-expanded="true" aria-controls="faq-answer-one">
+            ما استراتيجية إنتل للاستدامة؟
+          </button>
+        </h3>
+        <div id="faq-answer-one" class="accordion-collapse collapse show" aria-labelledby="faq-question-one" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-secondary">تركز استراتيجية RISE من إنتل على التقنية المسؤولة والشاملة والمستدامة والمُمكِّنة، مع أهداف قابلة للقياس لعام 2030.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item mb-2 border-0 shadow-sm">
+        <h3 class="accordion-header" id="faq-question-two">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-answer-two" aria-expanded="false" aria-controls="faq-answer-two">
+            كيف تعمل إنتل على خفض انبعاثات غازات الدفيئة؟
+          </button>
+        </h3>
+        <div id="faq-answer-two" class="accordion-collapse collapse" aria-labelledby="faq-question-two" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-secondary">تحسّن إنتل كفاءة التصنيع، وتستخدم الكهرباء المتجددة، وتستثمر في الحد من المواد الكيميائية عبر عملياتها.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item mb-2 border-0 shadow-sm">
+        <h3 class="accordion-header" id="faq-question-three">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-answer-three" aria-expanded="false" aria-controls="faq-answer-three">
+            ماذا تفعل إنتل للحفاظ على المياه؟
+          </button>
+        </h3>
+        <div id="faq-answer-three" class="accordion-collapse collapse" aria-labelledby="faq-question-three" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-secondary">تعيد إنتل استخدام المياه في منشآتها وتدعم مشاريع الاستعادة التي تعيد المياه إلى المجتمعات ومستجمعات المياه المحلية.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item border-0 shadow-sm">
+        <h3 class="accordion-header" id="faq-question-four">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-answer-four" aria-expanded="false" aria-controls="faq-answer-four">
+            أين يمكنني معرفة المزيد عن تقدم إنتل؟
+          </button>
+        </h3>
+        <div id="faq-answer-four" class="accordion-collapse collapse" aria-labelledby="faq-question-four" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-secondary">استكشف الخط الزمني أعلاه للاطلاع على المحطات الرئيسية في رحلة إنتل التقنية والاستدامة.</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   </main>
 
-  <footer>
-    <p>Intel Sustainability Timeline · Built for learning and reflection</p>
+  <footer class="border-top bg-white">
+    <div class="container py-4">
+      <div class="row align-items-center gy-3">
+        <div class="col-md-5">
+          <p class="h5 text-primary mb-1">إنتل</p>
+          <p class="mb-0 text-secondary">الخط الزمني لاستدامة إنتل</p>
+        </div>
+        <div class="col-md-7">
+          <nav class="d-flex flex-wrap gap-3 justify-content-md-end" aria-label="روابط التذييل">
+            <a class="text-secondary text-decoration-none" href="#privacy-policy">سياسة الخصوصية</a>
+            <a class="text-secondary text-decoration-none" href="#terms">الشروط</a>
+            <a class="text-secondary text-decoration-none" href="mailto:sustainability@example.com">تواصل معنا</a>
+          </nav>
+        </div>
+      </div>
+      <p class="small text-secondary border-top pt-3 mt-4 mb-0">&copy; 2026 شركة إنتل. جميع الحقوق محفوظة.</p>
+    </div>
   </footer>
 </body>
 </html>
